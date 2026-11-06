@@ -1,0 +1,52 @@
+{
+ "n_records": 1000,
+ "fields": [
+  "ID",
+  "Body",
+  "Question",
+  "Equation",
+  "Answer",
+  "Type"
+ ],
+ "type_counts_raw": {
+  "Subtraction": 531,
+  "Addition": 195,
+  "Multiplication": 108,
+  "Common-Division": 165,
+  "Common-Divison": 1
+ },
+ "n_body_missing_terminal_punct": 358,
+ "n_exact_duplicate_body_question": 0,
+ "n_non_integer_answers": 0,
+ "ops_per_equation": {
+  "1": 762,
+  "2": 237,
+  "0": 1
+ },
+ "numbers_in_text": {
+  "2": 351,
+  "3": 491,
+  "4": 155,
+  "5": 3
+ },
+ "n_heuristic_distractor": 445,
+ "input_words": {
+  "min": 15,
+  "median": 30.0,
+  "max": 57
+ },
+ "n_groups": 105,
+ "group_size": {
+  "min": 1,
+  "median": 8,
+  "max": 32,
+  "singletons": 5
+ },
+ "split_counts": {
+  "dev": 103,
+  "test": 897,
+  "dev_groups": 12,
+  "test_groups": 93
+ },
+ "dev_heuristic_distractor": 40
+}

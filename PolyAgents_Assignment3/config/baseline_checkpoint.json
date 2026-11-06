@@ -1,0 +1,15 @@
+{
+  "run_name": "baseline_llama3-8b_zs-cot_dev",
+  "model": "llama3:latest",
+  "model_note": "Checkpoint stand-in (Meta-Llama-3-8B-Instruct, Q4_0 GGUF via Ollama). Planned final baseline: qwen2.5:14b-instruct.",
+  "params_billion": 8.0,
+  "ollama_url": "http://localhost:11434/api/chat",
+  "split_file": "data/splits/split_v1.json",
+  "split": "dev",
+  "limit": null,
+  "prompt_file": "prompts/baseline_zero_shot_cot.txt",
+  "options": {"temperature": 0, "seed": 42, "num_predict": 512, "num_ctx": 2048},
+  "timeout_s": 300,
+  "max_retries": 1,
+  "output": "outputs/baseline_dev_predictions.jsonl"
+}

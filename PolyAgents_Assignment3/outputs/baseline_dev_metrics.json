@@ -1,0 +1,43 @@
+{
+ "n": 103,
+ "acc_em": 0.9029,
+ "acc_em_95ci_group_bootstrap": [
+  0.8375,
+  0.9649
+ ],
+ "n_groups": 12,
+ "n_parse_failed": 0,
+ "n_call_failed": 0,
+ "acc_heuristic_distractor": [
+  0.8,
+  40
+ ],
+ "acc_no_heuristic_distractor": [
+  0.9683,
+  63
+ ],
+ "acc_by_type": {
+  "Addition": [
+   1.0,
+   17
+  ],
+  "Common-Division": [
+   0.8636,
+   22
+  ],
+  "Multiplication": [
+   0.8333,
+   12
+  ],
+  "Subtraction": [
+   0.9038,
+   52
+  ]
+ },
+ "tokens_per_problem_mean": 233.4,
+ "prompt_tokens_total": 10434,
+ "gen_tokens_total": 13604,
+ "cost_proxy_Btok_per_problem": 1867.0,
+ "wall_s_median": 29.8,
+ "wall_s_mean_excluding_first": 51.51
+}

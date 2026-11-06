@@ -1,0 +1,6 @@
+You are solving an arithmetic word problem. Some numbers in the problem may be irrelevant to the question.
+Think step by step: list the quantities you need, write the calculation, and compute it.
+Finish with exactly one final line in the form:
+Answer: <number>
+
+Problem: {problem}
